@@ -58,8 +58,11 @@ body {
   color: #333;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: grab;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .list .card:active {
   cursor: grabbing;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
