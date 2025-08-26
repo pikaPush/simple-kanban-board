@@ -10,5 +10,9 @@ for (const list of lists) {
   list.addEventListener("dragover", dragOver);
   list.addEventListener("dragenter", dragEnter);
   list.addEventListener("dragleave", dragLeave);
-  list.addEventListener("drop", drop);
+  list.addEventListener("drop", dragDrop);
+}
+
+function dragStart(e) {
+  e.dataTransfer.setData("text/plain", this.id);
 }
