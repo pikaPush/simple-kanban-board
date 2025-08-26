@@ -34,3 +34,10 @@ function dragEnter(e) {
 function dragOver(e) {
   this.classList.remove("over");
 }
+
+function dragDrop(e) {
+  const id = e.dataTransfer.getData("text/plain");
+  const card = document.getElementById(id);
+  this.appendChild(card);
+  this.classList.remove('over');  
+}
