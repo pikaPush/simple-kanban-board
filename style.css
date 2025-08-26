@@ -70,3 +70,25 @@ body {
 .board .list.over {
   background-color: #d1d3d8;
 }
+
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .container .board {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container h1 {
+    font-size: 28px;
+  }
+
+  .board .list {
+    width: 70%;
+    max-width: 350px;
+  }
+
+  .board h2 {
+    font-size: 1.3rem;
+  }
+}
