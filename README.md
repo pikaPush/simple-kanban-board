@@ -1,1 +1,1 @@
-# simple-kanban-board
+# Simple Kanban Board
