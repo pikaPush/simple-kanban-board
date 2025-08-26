@@ -24,3 +24,13 @@ body {
   color: #333;
   margin-bottom: 20px;
 }
+
+.container .board {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
