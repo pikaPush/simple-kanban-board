@@ -30,3 +30,7 @@ function dragEnter(e) {
 
   this.classList.add("over");
 }
+
+function dragOver(e) {
+  this.classList.remove("over");
+}
