@@ -16,3 +16,11 @@ for (const list of lists) {
 function dragStart(e) {
   e.dataTransfer.setData("text/plain", this.id);
 }
+
+function dragEnd() {
+  console.log("Drag ended");
+}
+
+function dragOver(e) {
+  e.preventDefault()
+}
