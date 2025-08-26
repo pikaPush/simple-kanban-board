@@ -34,3 +34,12 @@ body {
   margin: 0 auto;
   gap: 20px;
 }
+
+.board .list {
+  background-color: #e3e4e8;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 30%;
+  min-height: 400px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
